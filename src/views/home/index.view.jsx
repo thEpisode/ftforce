@@ -12,7 +12,7 @@ class Index extends React.Component {
 
           <div className="container py-2 mt-4 mb-4">
             <div className="row no-gutters" v-for="(_entity, index) in vueBind.model.entity.commits">
-              <article v-if="index % 2 === 0">
+              <article className="d-flex w-100" v-if="index % 2 === 0">
                 <div className="col-sm"> </div>
                 <div className="col-sm-1 text-center flex-column d-none d-sm-flex">
                   <div className="row h-50">
@@ -37,7 +37,7 @@ class Index extends React.Component {
                   </div>
                 </div>
               </article>
-              <article v-if="index % 2 !== 0">
+              <article className="d-flex w-100" v-if="index % 2 !== 0">
                 <div className="col-sm py-2">
                   <div className="card shadow">
                     <div className="card-body">
