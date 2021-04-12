@@ -17,8 +17,8 @@ window.app = new Vue({
   data: {
     vueBind: {
       model: {
-        repoName: 'thEpisode/beat',
-        repo: {
+        repoName: 'thEpisode/ftforce',
+        entity: {
           info: {},
           commits: []
         }
@@ -64,7 +64,7 @@ window.app = new Vue({
         return
       }
 
-      this.vueBind.model.repo = entityResponse.result
+      this.vueBind.model.entity = entityResponse.result
     }
   }
 })
