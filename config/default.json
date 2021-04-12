@@ -1,0 +1,88 @@
+{
+  "JWT_SECRET": "NodeJSIsCool",
+  "SERVER_PORT": "3500",
+  "SERVER_VERSION": "4.0.0",
+  "SERVER_NAME": "ftforce server #1",
+  "BACKEND_SECRET": "zih9cVFnC0J0otOAFXrj",
+  "FRONTEND_URI": "http://localhost:3500",
+  "BACKEND_URI": "http://localhost:3500",
+  "TOKEN_EXPIRE": 24,
+  "USE_DATABASE": false,
+  "USE_STORAGE": false,
+  "DATABASE_NAME": "firebase",
+  "STORAGE_NAME": "spaces",
+  "GEOIP_DATABASE": {
+    "PATH": "/databases/GeoLite2-City.mmdb"
+  },
+  "REPO": "thEpisode/beat",
+  "CUSTOM_DEPENDENCIES": [
+    {
+      "name": "socketClient",
+      "package": "socket.io-client"
+    }
+  ],
+  "CUSTOM_STATIC_ROUTES": [
+    {
+      "route": "/jquery",
+      "path": "/node_modules/jquery/dist/"
+    },
+    {
+      "route": "/bootstrap",
+      "path": "/node_modules/bootstrap/dist/"
+    },
+    {
+      "route": "/fontawesome",
+      "path": "/node_modules/@fortawesome/fontawesome-free-webfonts/"
+    },
+    {
+      "route": "/datatables",
+      "path": "/node_modules/datatables.net/js/"
+    },
+    {
+      "route": "/datatables-bs4",
+      "path": "/node_modules/datatables.net-bs4/"
+    },
+    {
+      "route": "/material-design-font",
+      "path": "/node_modules/@mdi/font/"
+    },
+    {
+      "route": "/popperjs",
+      "path": "/node_modules/popper.js/dist/"
+    },
+    {
+      "route": "/sweetalert2",
+      "path": "/node_modules/sweetalert2/dist/"
+    },
+    {
+      "route": "/select2",
+      "path": "/node_modules/select2/dist/"
+    },
+    {
+      "route": "/select2-bootstrap-theme",
+      "path": "/node_modules/select2-bootstrap-theme/dist/"
+    },
+    {
+      "route": "/vue",
+      "path": "/node_modules/vue/dist"
+    },
+    {
+      "route": "/vue-resource",
+      "path": "/node_modules/vue-resource/dist"
+    },
+    {
+      "route": "/vue-cookies",
+      "path": "/node_modules/vue-cookies/"
+    }
+  ],
+  "API_ENDPOINTS": {
+    "REPOINFO": {
+      "BASE": "https://api.github.com",
+      "PATH": "/repos/{0}"
+    },
+    "REPOCOMMITS": {
+      "BASE": "https://api.github.com",
+      "PATH": "/repos/{0}/commits"
+    }
+  }
+}
