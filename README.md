@@ -6,7 +6,7 @@
 
 # Fulltime Force
 
-This a Node.js project based in my own server framework called [Beat](github.com/thEpisode/beat) this project use [Express](https://expressjs.com/), [ReactDOM](https://reactjs.org/docs/react-dom.html) to server rendering and Vue.js to handle the frontend.
+This a Node.js project based in my own server framework called [Beat](https://github.com/thEpisode/beat) this project use [Express](https://expressjs.com/), [ReactDOM](https://reactjs.org/docs/react-dom.html) to server rendering and Vue.js to handle the frontend.
 
 ## How to execute
 
