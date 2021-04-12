@@ -31,7 +31,10 @@ class Index extends React.Component {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="float-right small">{'{{_entity.commit.author.date }}'}</div>
-                      <h4 className="card-title">{'{{_entity.author.login }}'}</h4>
+                      <h4 className="card-title">
+                        <a
+                          {...{ 'v-bind:href': '_entity.html_url' }}>{'{{_entity.author.login }}'}</a>
+                      </h4>
                       <p className="card-text">{'{{_entity.commit.message }}'}</p>
                     </div>
                   </div>
@@ -42,7 +45,10 @@ class Index extends React.Component {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="float-right small">{'{{_entity.commit.author.date }}'}</div>
-                      <h4 className="card-title">{'{{_entity.author.login }}'}</h4>
+                      <h4 className="card-title">
+                        <a
+                          {...{ 'v-bind:href': '_entity.html_url' }}>{'{{_entity.author.login }}'}</a>
+                      </h4>
                       <p className="card-text">{'{{_entity.commit.message }}'}</p>
                     </div>
                   </div>
