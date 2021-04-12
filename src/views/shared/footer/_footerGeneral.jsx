@@ -13,21 +13,11 @@ class Footer extends React.Component {
                 <h1 className="logo">ftforce</h1>
               </div>
             </div>
-            <div className="col-md-6 mb-5 mb-md-5">
-              <div className="ftco-footer-widget mb-4">
-                <ul className="ftco-footer-social list-unstyled float-md-left float-lft">
-                  <li className=""><a href="https://twitter.com/vca_global"><span className="icon-twitter"></span></a></li>
-                  <li className=""><a href="https://www.facebook.com/virtualcapitalofamerica/"><span className="icon-facebook"></span></a></li>
-                  <li className=""><a href="https://www.instagram.com/virtualcapitalofamerica/"><span className="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
           </div>
           <div className="row">
             <div className="col-md-12 text-center">
               <p className="">
-                Copyright © {date.getFullYear()} <a href="https://www.virtualcapitalofamerica.com/" target="_blank">
-                  Virtual capital of America</a>. All rights reserved.</p>
+                Copyright © {date.getFullYear()}. All rights reserved.</p>
             </div>
           </div>
         </div>
